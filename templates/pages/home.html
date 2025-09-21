@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+     <h1>Welcome to Assignment/Week1</h1>
+    <p>This starter shows the Django MVT pattern with basic routing and templates.</p><ul>
+
+    <ul>
+        <li>Course: {{ course }}</li>
+        <li>Week: {{ week1 }}</li>
+    </ul>
+    <p>Try the <a href="{% url 'about' %}">About</a> page</p>
+{% endblock content %}
