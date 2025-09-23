@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}Week 1{% endblock title %} . Django Exercises</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+    <title>{% block title %}Week 1{% endblock title %} . Assignment1</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
   </head>
   <body>
     <header>
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{% url "home" %}">Django Assignment</a>
+    <a class="navbar-brand" href="{% url "home" %}">My Profile</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,24 +24,7 @@
         <li class="nav-item">
           <a class="nav-link" href="{% url "about" %}">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% url "hello" %}">Hello</a>
-        </li>
-        {% comment %} <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li> {% endcomment %}
       </ul>
-      {% comment %} <form class="d-flex">
-        <input class="form-control me-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form> {% endcomment %}
     </div>
   </div>
 </nav>
@@ -49,6 +32,6 @@
     <main class="container">
         {% block content %}{% endblock content %}
     </main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">IT373 Week1 . Django MVT . EVSU</span> </div></footer>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Placido, John Mark of Section 3D</span> </div></footer>
   </body>
 </html>

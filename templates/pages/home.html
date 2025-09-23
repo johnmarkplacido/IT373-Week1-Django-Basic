@@ -1,12 +1,21 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock title %}
 {% block content %}
-     <h1>Welcome to Assignment/Week1</h1>
-    <p>This starter shows the Django MVT pattern with basic routing and templates.</p><ul>
+<h1>Welcome!</h1>
+<p>Hello! I am John Mark, a BSIT student. </p>
 
+<h2>Profile</h2>
+<p>I am passionate about creating and exploring new ideas.</p>
+
+<h2>My Skills</h2>
+    <ul type="disc">
+       <li>Database Management:MySQL</li>
+        <li>Web Developer:HTML,CSS</li>
+    </ul>    
+<h2>What u find here</h2>
     <ul>
-        <li>Course: {{ course }}</li>
-        <li>Week: {{ week1 }}</li>
+        <li>Home</li>
+        <li>About</li>
     </ul>
-    <p>Try the <a href="{% url 'about' %}">About</a> page</p>
+<p>Try the <a href="{% url 'about' %}">About</a> page</p>
 {% endblock content %}
