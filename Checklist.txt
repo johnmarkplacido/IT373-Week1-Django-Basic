@@ -1,0 +1,6 @@
+John Mark D. Placido 2023-03244
+python version = Python 3.13.7
+venv active = (.venv) PS C:\Users\Admin\desktop\IT373-Week1-Django-Basic>
+Django Version = 5.2.6
+Runserver Working = Starting development server at http://127.0.0.1:8000/
+git set remote = origin
